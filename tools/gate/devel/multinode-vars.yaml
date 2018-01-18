@@ -11,3 +11,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+kubernetes:
+  network:
+    default_device: enp2s0f1
+  cluster:
+    cni: calico
+    pod_subnet: 192.168.0.0/16
